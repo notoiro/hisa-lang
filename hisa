@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require 'r-fxxk'
+
+class Hisa < Brainfuck
+  nxt 'ひっさー'
+  inc 'にゃお'
+  prv 'おあー！'
+  dec 'うに'
+  opn 'うおにゃ'
+  cls 'にゃふ'
+  put 'うおにーな！'
+  get 'わあ！'
+end
+
+puts Hisa.new.fuck(ARGF.read)
